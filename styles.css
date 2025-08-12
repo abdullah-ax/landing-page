@@ -53,7 +53,7 @@ main {
 .inner-column {
     display: block;
     border: 4px solid orange;
-    padding: 10px;
+    padding-inline: 70px;
 }
 
 @media (min-width: 700px) {
@@ -76,6 +76,30 @@ main {
 .graphic-cards {
     display: flex;
     gap: 16px;
+}
+
+.quote {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.quote-credit {
+    text-align: end;
+}
+
+.cta {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+.cta-button {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    min-width: fit-content;
 }
 
 /* TYPOGRAPHY */
