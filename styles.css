@@ -68,6 +68,10 @@ main {
     }
 }
 
+.text-content {
+    align-content: center;
+}
+
 .card-header,
 .card-text {
     text-align: center;
@@ -81,6 +85,7 @@ main {
 .quote {
     display: flex;
     flex-flow: column nowrap;
+
 }
 
 .quote-credit {
