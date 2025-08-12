@@ -27,18 +27,9 @@ a {
 /* STRUCTURE */
 
 
-section {
-    border: 4px solid lime;
-}
 
-header,
-footer,
-main {
-    border: 4px solid red;
-}
 
 body {
-    border: 10px solid blue;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -52,8 +43,8 @@ main {
 
 .inner-column {
     display: block;
-    border: 4px solid orange;
     padding-inline: 70px;
+    padding-block: 20px;
 }
 
 @media (min-width: 700px) {
@@ -94,17 +85,20 @@ main {
 
 .cta {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    gap: 100px;
+    padding-inline: 80px;
+    padding-block: 20px;
+    background-color: blue;
+    border-radius: 22px;
 }
-
-
-
 
 .cta-button {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     min-width: fit-content;
+
 }
 
 /* TYPOGRAPHY */
