@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    padding: 8px;
+}
+
+body {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
