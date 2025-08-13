@@ -8,7 +8,6 @@ img {
     display: block;
     width: 100%;
     height: auto;
-    border-radius: 25px;
 }
 
 a {
@@ -19,10 +18,10 @@ a {
 
 /* DEV STYLES */
 
-body * {
+/* body * {
     border: 1px solid blue;
     padding: 2px;
-}
+} */
 
 /* STRUCTURE */
 
@@ -89,16 +88,18 @@ main {
     gap: 100px;
     padding-inline: 80px;
     padding-block: 20px;
-    background-color: blue;
-    border-radius: 22px;
 }
 
-.cta-button {
+.button {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     min-width: fit-content;
 
+}
+
+.button a {
+    color: white;
 }
 
 .nav-bar {
@@ -117,4 +118,72 @@ footer {
     text-align: center;
 }
 
-/* TYPOGRAPHY */
+/* COLORS & TYPOGRAPHY */
+
+body {
+    font-family: 'Roboto';
+}
+
+.hero,
+footer {
+    background-color: #1F2937;
+}
+
+.hero-main {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-secondary,
+.nav-links {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.button>span,
+.cta {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.info-header-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.cta>a>span {
+    border: 2px solid #F9FAF8;
+}
+
+.card .picture img {
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+}
+
+.cta,
+.quote-section,
+.graphic-module {
+    padding: 8dvw;
+}
+
+footer {
+    color: #F9FAF8;
+    font-weight: 100;
+}
